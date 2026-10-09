@@ -1,11 +1,16 @@
 {
-  "revision": 2,
+  "revision": 3,
   "players": [],
   "warehouse": [
     {
       "item": "minecraft:netherite_ingot",
       "current": 0,
       "max": 1222
+    },
+    {
+      "item": "minecraft:gold_ingot",
+      "current": 0,
+      "max": 24
     }
   ],
   "roles_catalog": [],
