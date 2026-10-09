@@ -1,7 +1,13 @@
 {
-  "revision": 1,
+  "revision": 2,
   "players": [],
-  "warehouse": [],
+  "warehouse": [
+    {
+      "item": "minecraft:netherite_ingot",
+      "current": 0,
+      "max": 1222
+    }
+  ],
   "roles_catalog": [],
   "clan_waypoints": []
 }
