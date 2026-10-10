@@ -1,6 +1,17 @@
 {
-  "revision": 5,
-  "players": [],
+  "revision": 6,
+  "players": [
+    {
+      "uuid": "bac8f01b-232c-3e8a-a5a1-1805e59b4ef0",
+      "name": "mini_zevs",
+      "tag": "Enigma",
+      "role": "Лидер",
+      "roles": [
+        "Лидер",
+        "Ответственный за склад"
+      ]
+    }
+  ],
   "warehouse": [
     {
       "item": "minecraft:netherite_ingot",
@@ -13,6 +24,62 @@
       "max": 26
     }
   ],
-  "roles_catalog": [],
+  "roles_catalog": [
+    "Лидер",
+    "Зам",
+    "Добытчик",
+    "Ответственный за добычу",
+    "Кладовщик",
+    "Ответственный за склад"
+  ],
+  "access_rules": {
+    "permissions": {
+      "warehouse.view": [
+        "Лидер",
+        "Зам",
+        "Добытчик",
+        "Ответственный за добычу",
+        "Кладовщик",
+        "Ответственный за склад"
+      ],
+      "warehouse.edit": [
+        "Лидер",
+        "Зам",
+        "Кладовщик",
+        "Ответственный за склад"
+      ],
+      "warehouse.delete": [
+        "Лидер",
+        "Зам",
+        "Кладовщик",
+        "Ответственный за склад"
+      ],
+      "members.manage": [
+        "Лидер",
+        "Зам"
+      ],
+      "roles.create": [
+        "Лидер",
+        "Зам"
+      ],
+      "events.manage": [
+        "Лидер",
+        "Зам"
+      ],
+      "knowledge.manage": [
+        "Лидер",
+        "Зам"
+      ],
+      "waypoints.manage": [
+        "Лидер",
+        "Зам"
+      ],
+      "permissions.manage": [
+        "Лидер"
+      ]
+    }
+  },
+  "events": [],
+  "knowledge_base": [],
   "clan_waypoints": []
 }
