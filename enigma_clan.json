@@ -1,5 +1,5 @@
 {
-  "revision": 6,
+  "revision": 7,
   "players": [
     {
       "uuid": "bac8f01b-232c-3e8a-a5a1-1805e59b4ef0",
@@ -9,6 +9,15 @@
       "roles": [
         "Лидер",
         "Ответственный за склад"
+      ]
+    },
+    {
+      "uuid": "850e5d8f-5270-381f-85bf-3206956e6704",
+      "name": "port1234567",
+      "tag": "Enigma",
+      "role": "Кладовщик",
+      "roles": [
+        "Кладовщик"
       ]
     }
   ],
@@ -81,5 +90,8 @@
   },
   "events": [],
   "knowledge_base": [],
-  "clan_waypoints": []
+  "clan_waypoints": [],
+  "processed_operations": [
+    "59340826-7904-4575-87bb-8bd413af6dd4"
+  ]
 }
