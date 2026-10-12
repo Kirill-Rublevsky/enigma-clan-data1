@@ -1,5 +1,5 @@
 {
-  "revision": 7,
+  "revision": 8,
   "players": [
     {
       "uuid": "bac8f01b-232c-3e8a-a5a1-1805e59b4ef0",
@@ -90,8 +90,18 @@
   },
   "events": [],
   "knowledge_base": [],
-  "clan_waypoints": [],
+  "clan_waypoints": [
+    {
+      "id": "71078daac876422492d6f983c71ba3f0",
+      "name": "ssss",
+      "dimension": "minecraft:overworld",
+      "x": -8732,
+      "y": 65,
+      "z": -6629
+    }
+  ],
   "processed_operations": [
-    "59340826-7904-4575-87bb-8bd413af6dd4"
+    "59340826-7904-4575-87bb-8bd413af6dd4",
+    "1384f4ef-c4e6-4367-a51c-62e638fd8cbd"
   ]
 }
